@@ -1,0 +1,37 @@
+<!-- In HTML Comments are written like this -->
+<!-- They can all be removed for your apps -->
+<!doctype html> <!-- This first line tells browsers to expect modern standard html 5 -->
+<html lang="en-gb"> <!-- This is indicates the page is written in British English, useful for accessibility -->
+<meta charset="utf-8"> <!-- This indicates how the file is encoded. utf-8 is standard -->
+<title>Your Web-app Title</title> <!-- All pages need a title, this will be displayed in the browser's title bar -->
+<link rel="stylesheet" href="default.css"> <!-- Import style sheet – default.css -->
+<link rel="icon" href="./assets/favicon.png"> <!-- Import 'Favorites Icon' – favicon.png -->
+<script type="module" src="main.js"></script> <!-- Load the main script. Must be type="module". Have only one of these -->
+<!DOCTYPE html>
+<html>
+</head>
+<meta charset="UTF-8">
+<title>Black Jack</title>
+<body>
+    <div id="wrapper">
+        <h1>Blackjack</h1>
+        <div id="game">
+            <div id="player1-hand" class="hand">
+                <h2>Player 1 </h2>
+            </div>
+            <div id="player2-hand" class="hand">
+                <h2>Player 2 </h2>
+            </div>
+            <div class="buttons">
+                <button id="hit-btn" class="btn">Hit</button>
+                <button id="stand-btn" class="btn">Stand</button>
+                <button id="new-game-btn" class="btn">New Game</button>
+            </div>
+
+            <h3 id="result-message"></h3>
+        </div>
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
+
