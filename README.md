@@ -1,4 +1,4 @@
-### Blackjack
+# Blackjack
 Blackjack is a turn based game.
 ## API
 It defines a module, Blackjack.js, for representing and playing Turn Based style games in pure Javascript. This module exposes pure functions in its API.
